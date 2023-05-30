@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Nadpisy */
+
+.nadpis-h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2.5%;
+    display: inline-block;
+    border-bottom: 2px solid rgb(255, 217, 0);
+}
+
+/* Navigace */
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    background: rgba(26, 26, 26, 0.8);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+}
+
+nav a {
+    transition: 0.5s;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 2.5vh 1.5vh;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+.float:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.home-icon {
+    max-width: 65px;
+    aspect-ratio: 1;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;   
+}
+
+.hamburger {
+    width: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+.home {
+    position: relative;
+    left: 0.7vw;
+    top: 0.7vh;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Obrázky/header-picture.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-text {
+    position: relative;
+    top: 45%;
+    left: 16%;
+    line-height: 75px;
+    max-width: 850px;
+}
+
+.header-text h1 {
+    font-size: 70px;
+    color: white;
+    font-family: 'Libre Baskerville',sans-serif;
+}
+
+.header-text h2 {
+    font-size: 35px;
+    color: rgb(255, 217, 0);
+    font-family: 'Libre Baskerville',sans-serif;
+}
+
+/* Main */
+
+main {
+    max-width: 100%;
+    background-color: #0e1116;
+   
+}
+
+/* info o nás */
+
+.info {
+    max-width: 70%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding-top: 12vh;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    display: block;
+    position: relative;
+}
+
+/* Fotogalerie */
+
+#fotogalerie {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+#fotogalerie h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 55%;
+}
+
+.obrazek {
+    width: 480px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+/* patička */
+
+footer {
+    background-color: rgba(5,9,14,0.97);
+    width: 100%;
+    color: rgba(255,255,255,0.8);
+}
+
+.copy-foot {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    padding: 15px 0;
+    color: gray
+}
+
+.copy-foot a {
+    color: gray;    
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.copy-foot a:hover {
+    color: rgba(128, 128, 128, 0.582);
+}
+
+.footer-container {
+    background-color: #4a4a4a67;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    padding: 2.5%;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+
+.footer-container h3 {
+    border-bottom: 2px solid rgb(255, 217, 0);
+    margin-bottom: 12px;
+}
+
+
+.time {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+

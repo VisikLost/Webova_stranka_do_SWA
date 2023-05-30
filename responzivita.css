@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1900px){
+    .container4 {
+        display: block;
+    }
+
+    .inputo {
+        max-width: 700px;
+        padding: 15px;
+    }
+
+    .email-input {
+        padding-bottom: 110px;;
+    }
+
+    .right-kontakt {
+        text-align: center;
+    }
+
+    .time1 {
+        text-align: center;
+    }
+
+    .container4 form {
+        text-align: center;
+    }
+
+    .header-text4 h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 1919px){
+    .header-text4 h2 {
+        font-size: 50px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1700px){
+    .user-recenze3 {
+        display: none;
+    }
+
+    .user-recenze h3{
+        top: 0;
+    }
+
+    .container5 {
+        justify-content: space-evenly;
+    }
+
+    .recenze-text img {
+        margin: 0 auto;
+    }
+
+    .recenze-text{
+        display: block;
+    }
+
+    .datum {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1430px){
+    .pizzos {
+        display: none;
+    }
+
+    .steakos {
+        display: none;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    .obrazek {
+        width: 70%;
+        height: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 1300px){
+    .container2 {
+        display: block;
+    }
+
+    .header-text5 h2{
+        max-width: 500px;
+        font-size: 50px;
+    }   
+
+}
+
+@media only screen and (max-width: 1120px){
+    .home-icon {
+        position: absolute;
+        max-width: 45px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .header-text h1{
+        font-size: 55px;
+    }
+
+    .header-text h2{
+        font-size: 28px;
+    }
+
+    .js-li a {
+        font-size: 20px;
+    }
+
+    .nadpiss {
+        font-size: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+    .inputo {
+        max-width: 350px;
+        padding: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 760px){
+    .header-text{
+        max-width: 500px;
+    }
+
+    .header-text1 h2{
+        max-width: 400px;
+        font-size: 45px;
+        top: 30%;
+    }
+
+    .header-text2 h2{
+        font-size: 45px;
+        max-width: 200px;
+    }
+
+    .header-text3{
+        max-width: 500px;
+    }
+
+    .header-text4 h2{
+        max-width: 400px;
+        font-size: 30px;
+    }
+
+    .header-text5 h2{
+        max-width: 500px;
+        font-size: 30px;
+    }   
+}
+
+@media only screen and (max-width: 685px){  
+    .list-js {
+        display: none;
+        font-size: 32px;
+    }
+
+    .hamburger {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: 5px;
+        right: 10px;
+    }  
+}
+
+@media only screen and (max-width: 575px){  
+    .header-text5{
+        left: 10%;
+    }
+
+    .header-text4{
+        left: 10%;
+    }
+}

@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+/*** Stránka jidelni-listek ***/
+
+hr {
+    border: 1px dashed rgba(0,0,0,0.2);
+}
+
+#header1 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Obrázky/header-pic2.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    background-attachment: top;
+}
+
+#main1 {
+    background-color: rgba(245, 222, 179, 0.3);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3.5% 0;
+}
+
+.container h3 {
+    font-size: 30px;
+    color: #A78963;
+    padding: 1%;
+    letter-spacing: 1px;
+}
+
+.container p {
+    color: #4A4A4A;
+    font-size: 15px;
+    line-height: 300%;
+    letter-spacing: 1px;
+}
+
+.header-text1 {
+    position: relative;
+    top: 40%;
+    left: 17%;
+}
+
+.header-text1 h1{
+    font-size: 32px;
+    color: rgba(255,255,255,0.6);
+    font-weight: bold;
+    margin-bottom: 0.7%;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.header-text1 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+    font-family: 'Libre Baskerville',sans-serif;
+    letter-spacing: 1.2px;
+    font-weight: lighter;
+}
+
+.price {
+    font-weight: bold;
+}
+
+/*** Stránka napojový lístek ***/
+
+#header2 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Obrázky/header-pic3.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    background-attachment: top;
+}
+
+#main2 {
+    background-color: rgba(245, 222, 179, 0.3)
+}
+
+.main-nadpis {
+    text-align: center;
+    color: #A78963;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 2.3%;
+    padding-bottom: 1%;
+}
+
+.container2 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5%;
+    padding-top: 1.7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bar h3 {
+    color: #A78963;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.lowerbar p {
+    font-size: 15px;
+    line-height: 350%;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4A4A4A;
+}
+
+/*** Stránka denní menu ***/
+
+#header3 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Obrázky/header-pic4.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    background-attachment: top;
+}
+
+#main3 {
+    background-color: rgba(245, 222, 179, 0.3)
+}
+
+.main3-header-text {
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 0.6%;
+    padding-top: 1%;
+}
+
+.main3-header-text h2 {
+    padding-bottom: 0.6%;
+}
+
+.main3-header-text p{
+    color: rgba(0,0,0,0.6);
+    font-size: 15px;
+}
+
+.container3 {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.bar1 h3{
+    color: #A78963;
+    text-align: left;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.bar1 p {
+    font-size: 15px;
+    line-height: 350%;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #4A4A4A;
+}
+
+/*** Stránka kontakty ***/
+
+#header4 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Obrázky/header-pic5.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    background-attachment: top;
+}
+
+#main4 {
+    background-color: rgba(245, 222, 179, 0.3)
+}
+
+.container4 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container4 form {
+    padding: 4%;
+    line-height: 10px;
+}
+
+.inputo {
+    width: 300%;
+    padding: 10% 5%;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1.5px solid #A78963;
+    letter-spacing: 1.5px;
+    
+}
+ 
+.inputo::placeholder {
+    color: #A78963;
+}
+
+.inputo:focus {
+    outline-color: #A78963;
+}
+
+.email-input {
+    padding-bottom: 70%;
+}
+
+.submit-input {
+    width: 90%;
+    background-color: white;
+    color: #A78963;
+}
+
+.right-kontakt {
+    padding: 4%;
+}
+
+.right-kontakt h2 {
+    color: #A78963;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+    font-size: 35px;   
+}
+
+.right-kontakt h3 {
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.right-kontakt p {
+    color: #A78963;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.time1 {
+    text-align: left;
+}
+
+/*** Stránka recenze ***/
+
+#header5 {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Obrázky/header-pic6.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    background-attachment: top;
+}
+
+#main5 {
+    background-color: rgba(245, 222, 179, 0.3)
+}
+
+.container5 {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 5%;
+}
+
+.user-recenze {
+    width: 33%;
+}
+
+.user-recenze h3{
+    color: #A78963;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.user-recenze p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: rgba(0,0,0,0.7)
+}
+
+.recenze-text {
+    display: flex;
+}
+
+.datum {
+    text-align: center;
+    position: relative;
+    bottom: 22px;
+}
+
+.user-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/*** Ochrana osobních údajů ***/
+
+#header6 {
+    background: none;
+    width: 0;
+    height: 0;
+}
+
+#main6 {
+    background-color: rgba(245, 222, 179, 0.3);
+}
+
+.container6 {
+    padding-top: 8%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo-a-nadpis {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-a-nadpis p {
+    align-self: center;
+    font-size: 32px;
+    color: #A78963;
+    letter-spacing: 1px;
+    font-weight: bold; 
+}
+
+.ochrana-logo {
+    width: 140px;
+    aspect-ratio: 1;
+}
+
+.ochrana-text {
+    padding: 30px 0;
+    padding-bottom: 50px;
+}
+
+.ochrana-nadpis {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    letter-spacing: 1px;
+}
+
+.ochrana-odstavec {
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 1px;
+    line-height: 20px;
+}
