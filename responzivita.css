@@ -96,7 +96,6 @@
 @media only screen and (max-width: 1120px){
     .home-icon {
         position: absolute;
-        max-width: 45px;
     }
 }
 
@@ -111,6 +110,16 @@
     }
 }
 
+@media only screen and (max-width: 1050px){
+    .js-li a {
+        font-size: 20px;
+    }
+
+    .home-icon {
+        max-width: 57px;
+    }
+}
+
 @media only screen and (max-width: 1000px){
     .header-text h1{
         font-size: 55px;
@@ -120,12 +129,8 @@
         font-size: 28px;
     }
 
-    .js-li a {
-        font-size: 20px;
-    }
-
     .nadpiss {
-        font-size: 35px;
+        font-size: 55px;
     }
     
 }
@@ -159,7 +164,7 @@
     }
 }
 
-@media only screen and (max-width: 685px){  
+@media only screen and (max-width: 730px){  
     .list-js {
         display: none;
         font-size: 32px;
@@ -172,6 +177,14 @@
         top: 5px;
         right: 10px;
     }  
+
+    .nadpiss {
+        font-size: 45px;
+    }
+
+    .home-icon {
+        width: 40px;
+    }
 }
 
 @media only screen and (max-width: 575px){  
@@ -191,11 +204,23 @@
         width: 75%;
         font-size: 40px;
     }
+
+    .nadpiss {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 520px){  
     .header-text5 h2{
         width: 75%;
+    }
+
+    .nadpisy h1 {
+        font-size: 45px;    
+    }
+
+    .header-text h1 {
+        font-size: 45px;
     }
 }
 
@@ -234,5 +259,9 @@
 
     .header-textt h2 {
         font-size: 35px;
+    }
+
+    #main2 h2 {
+        font-size: 40px;
     }
 }
