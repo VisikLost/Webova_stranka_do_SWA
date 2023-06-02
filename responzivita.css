@@ -4,7 +4,7 @@
     }
 
     .inputo {
-        max-width: 700px;
+        width: 95%;
         padding: 15px;
     }
 
@@ -23,11 +23,6 @@
     .container4 form {
         text-align: center;
     }
-
-    .header-text4 h2 {
-        font-size: 40px;
-    }
-
 }
 
 @media only screen and (max-width: 1919px){
@@ -105,6 +100,17 @@
     }
 }
 
+@media only screen and (max-width: 1070px){
+    .container5 {
+        flex-direction: column;
+    }
+
+    .user-recenze {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 1000px){
     .header-text h1{
         font-size: 55px;
@@ -124,24 +130,12 @@
     
 }
 
-@media only screen and (max-width: 900px){
-    .inputo {
-        max-width: 350px;
-        padding: 15px;
-    }
-}
-
 
 @media only screen and (max-width: 760px){
     .header-text{
-        max-width: 500px;
+        width: 70%;
     }
 
-    .header-text1 h2{
-        max-width: 400px;
-        font-size: 45px;
-        top: 30%;
-    }
 
     .header-text2 h2{
         font-size: 45px;
@@ -152,15 +146,17 @@
         max-width: 500px;
     }
 
-    .header-text4 h2{
-        max-width: 400px;
-        font-size: 30px;
-    }
-
     .header-text5 h2{
         max-width: 500px;
         font-size: 30px;
     }   
+}
+
+@media only screen and (max-width: 850px){
+    .header-text4 h2 {
+        width: 80%;
+        font-size: 35px;
+    }
 }
 
 @media only screen and (max-width: 685px){  
@@ -185,5 +181,58 @@
 
     .header-text4{
         left: 10%;
+    }
+
+    .header-text4 h2 {
+        font-size: 30px;
+    }
+
+    .header-textt h2 {
+        width: 75%;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 520px){  
+    .header-text5 h2{
+        width: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 440px){ 
+    .footer-container {
+        flex-direction: column;
+    } 
+
+    .time {
+        text-align: center;
+    }
+
+    .sidefooter {
+        margin-top: 15px;
+    }
+
+    .sidefooter h3 {
+        display: inline-block;
+    }
+    
+    .copy-foot {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 380px){ 
+    .header-text1 h1 {
+        width: 85%;
+    }
+
+    .header-text2 h2 {
+        font-size: 30px;
+    }
+
+    .header-textt h2 {
+        font-size: 35px;
     }
 }
